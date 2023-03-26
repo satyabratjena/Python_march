@@ -1,0 +1,301 @@
+today main objective.
+
+1. 3 programs which are  some kind of an architecture.
+array program
+task program
+Employee program
+
+programmer should know how to convert english into functions and variables fitting
+into an architecture.
+
+
+we have a country scenario.. ghost ... nice english no details.
+
+country means cityname,areaname and pincode.
+
+1. add a country information
+2. change country information.. cityname and areaname..
+we can change cityname and areaname but not pincode.
+3. if we give cityname. we should get all the area and pincodes..
+4. if we give pincode, it should tell cityname and areaname.
+5. sort 
+	5.1 cityname
+	5.2 areaname
+	5.3 pincode
+0. exit
+
+shoudl work with database..
+
+I am not comfortable with model. you write down this in notepad
+define. what is meaning of not comfortable and paste it in teh chat window.
+
+comfortable with model means.
+
+1. we will write a class. we will think what variables to write in the class.
+2. we will create an object.
+3. wherever we have the object with us, we will access the variables present in the class
+or functons present in the class.
+doing 1 to 3. is called being 5/5 with model
+
+I am 5/5 in variables..
+1. think of operations.
+2. I will pick up the data type
+3. use it..
+3.1 create it.
+3.2 is operate on it.. 1.
+
+
+
+anybody who is talking about http for ( makeup .. presenatation, cover on the service function)
+
+
+
+look we have account scenario .. model became an account
+Account .. accountno, pin. balance.
+Item, 	
+
+1. accountno, you should give account details..
+
+
+does not thing is more pathetic and irritating then people who write poems..
+in name of programs..
+
+Database skills is  a separate skill.. but different story that there is shortage of stupid
+people who expect all skills to be present in the same person...
+
+we can learn some databse skills may be 2/5 ... that is optimistic number..
+
+so called full stack 
+presentation 2.5/5
+service and model (5/5)
+databsae 2/5
+cloud tools and other tools related to project (1/5)
+
+if you see a person who puts equal effort in a "system" 100% funeral guranteed.
+
+never learn this disease of creating tables from the programming language..
+
+
+what is rhyming word for rules.. answer is fools.
+people who become fan of rules, are fools..
+
+all rules are guideliness.. that means we can violate them provided we give
+a reason why we violated.. violating rules for fun is "carelessness" 
+how will a kid think , If i learn all the rules then I can do good design, that is because
+this guy is a kid...
+
+table called emp, empno, empname and deptid.
+
+to put some rows into the table.. what is sql command we use..
+
+insert 
+when does insert command fail.
+1. constraint violation.. in all other cases, it means programmer was in comma state.
+2. update and delete command can fail in two circumstances..
+2.1 constraint violation.
+2.2 where condition fails..
+3. select command.
+3.1 single select if we do query on primary key you will get one row
+3.2 multi select  if we do query on  non primary key we should multiple rows.
+
+4. DTL , commit and rollback.. 
+commit will make things permanent
+rollback will undo things..
+think of insert,update.. and never of DDL commands like creation of tables, alter of tables
+dropping of tables..
+
+
+
+
+
+update emp set deptid=4, location='abc' where empno=3
+
+
+
+
+
+people who dont respect theory deserve suffering and they should use
+the word "science"
+
+
+trigger in database..
+some event in the database.. if we isnerted some row or we chaned some row
+automatically something should ahppen.. that is called as trigger.
+
+what all things I should in databse..
+1. databse
+2. table.
+3. constraint.. primary key, foreign key, check.
+4. insert, update and select.
+5. trigger.
+
+in our case.. we want to practice, insert, update, delete(extremely freaky), single select
+,multi select
+
+in each of the command we should think how success looks like how failure looks like.
+we should be 100% sure about success and failure.. 
+
+update command 
+update table set columname=newvalue, anothercoluname=newvalue where column=what
+
+
+select command
+select * from tablename where columname=somecondition.
+
+All this syntax not worth byhearting once. also .. 
+in my project what will happen. tell the team hey show me your database code
+I want to have a look at it
+
+recognize how insert is done
+how update is done
+how select is done
+and then immitate it.. that is good strategy than going to google and doing phd on
+databsae..pathetic..
+suppose team member tells I wont show you, you should do it on your own.. ok
+we can do it.. but then team memeber should not tell later on why you did like this
+I know other away.. then lock the door and give treatment to team member..
+
+code style.
+
+1. get in touch with database.
+sqliteConnection = sqlite3.connect('test.db')  //this line is responsible for connecting
+to the databse..
+
+x=[]
+x.sort()
+
+x={}
+y=x.values()
+
+
+
+
+
+2. look for failure.
+3. have your sql command .. values should come dynamically..
+4. issue your sql command.
+5. look for failure or success.
+6. close the communication with databse..
+
+
+
+we are writing a sql command..
+
+we are trying update command
+
+
+fillupqestionmarks=(33,1)
+string sql = update item set itemprice=? where itemno=?
+cursor.execute(sql_update_query, fillupquestionamrks)
+when itemno is not found, it will never result in an exception.
+
+	
+
+
+
+
+
+
+
+
+
+
+first set of assingments is 
+
+no architecture..
+
+2. a27xx.py to a29xx.py ensure you run it in your system and prove it works
+without making changes..  so it will not run.. emp table and test.db is not there
+create it.. where in same folder as the .py file as of now.. so learn how to use
+DBBrowser, 
+3. change the donkey
+emp.
+Item (itemno-int, itemname-string, price-int,category-string)
+1. insert
+2. update price and itemname.
+3. select for item based on itemno
+based on category
+4. Task (taskId, taskname, priority)
+1. insert
+2. update taskname and priority
+3. select based on taskid
+4. select based on priority.
+
+11.43 to 12.04 .. and join back..
+Keep your bp level normal... when to increase bp level if you cant write yesterday
+assingments..
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+when you go near the project, project is always screaming something , what is it screaming
+
+"I will change, I will change"
+
+insert into item(itemno,itmename,price) values (1,'a',3)  //good insert command or a bad insert command.
+
+learn to write columnnmaes with your insert. .if you are using..
+bad insert command why...
+why tomororw if a new column gets added to the table,, insert command will not
+break
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
